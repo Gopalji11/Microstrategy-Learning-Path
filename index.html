@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MicroStrategy Masterclass | Architect, Developer, Admin</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <div id="presentation-container">
+        <!-- Slides will be injected here -->
+        
+        <!-- Slide 1: Title -->
+        <section class="slide active" id="slide-1">
+            <div class="slide-header">
+                <span class="tag">Introduction</span>
+                <h1>MicroStrategy Mastery</h1>
+                <p class="text-secondary">Architecting, Developing, and Administering the World's Most Powerful BI Platform</p>
+            </div>
+            <div class="content-grid">
+                <div class="content-card">
+                    <i data-lucide="layers" style="color: var(--accent-blue)"></i>
+                    <h3>The Foundation</h3>
+                    <p>Master the Architecture and Metadata architecture that powers massive scale.</p>
+                </div>
+                <div class="content-card">
+                    <i data-lucide="code" style="color: var(--accent-purple)"></i>
+                    <h3>The Development</h3>
+                    <p>Build intelligent metrics, dossiers, and reports for deep insights.</p>
+                </div>
+                <div class="content-card">
+                    <i data-lucide="shield-check" style="color: var(--accent-green)"></i>
+                    <h3>The Command</h3>
+                    <p>Govern, secure, and optimize environments for peak performance.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 2: Ecosystem -->
+        <section class="slide" id="slide-2">
+            <div class="slide-header">
+                <span class="tag">Platform</span>
+                <h1>The Unified Ecosystem</h1>
+            </div>
+            <div class="slide-content">
+                <p>MicroStrategy One provides a unified platform for all your data needs, from self-service analytics to governed enterprise reporting.</p>
+                <div class="content-grid">
+                    <div class="content-card">
+                        <h3>Connect</h3>
+                        <p>Native gateways to 200+ data sources including Snowflake, AWS, and SAP.</p>
+                    </div>
+                    <div class="content-card">
+                        <h3>Model</h3>
+                        <p>The Semantic Graph: A reusable object layer for business logic consistency.</p>
+                    </div>
+                    <div class="content-card">
+                        <h3>Visualize</h3>
+                        <p>High-speed dossiers, pixel-perfect documents, and HyperIntelligence.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 3: Architecture -->
+        <section class="slide" id="slide-3">
+            <div class="slide-header">
+                <span class="tag">Infrastructure</span>
+                <h1>System Architecture</h1>
+            </div>
+            <div class="slide-content">
+                <div class="mosaic-grid">
+                    <div class="mosaic-item" style="grid-row: span 2;">
+                        <h3>Intelligence Server</h3>
+                        <p>The brain of the platform. Manages SQL generation, cache, and multi-user sessions.</p>
+                    </div>
+                    <div class="mosaic-item">
+                        <h3>Metadata</h3>
+                        <p>Relational database storing object definitions (XML).</p>
+                    </div>
+                    <div class="mosaic-item">
+                        <h3>Data Warehouse</h3>
+                        <p>Where the raw data lives. MSTR generates optimized SQL for it.</p>
+                    </div>
+                    <div class="mosaic-item">
+                        <h3>Web / Library</h3>
+                        <p>The consumption layer for end-users across browsers and devices.</p>
+                    </div>
+                    <div class="mosaic-item">
+                        <h3>Workstation</h3>
+                        <p>The modern centralized tool for admin and modeling chores.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 4: Metadata -->
+        <section class="slide" id="slide-4">
+            <div class="slide-header">
+                <span class="tag">Core</span>
+                <h1>The Metadata Secret</h1>
+            </div>
+            <div class="slide-content">
+                <p>The Metadata is a repository that stores MicroStrategy object definitions and information about your data warehouse. It allows for object reusability and impact analysis.</p>
+                <ul style="margin-top: 20px; list-style: none; color: var(--text-secondary);">
+                    <li><i data-lucide="check-circle-2" style="color: var(--accent-blue); vertical-align: middle; margin-right: 10px;"></i> <strong>Consistency:</strong> Define once, use everywhere.</li>
+                    <li><i data-lucide="check-circle-2" style="color: var(--accent-blue); vertical-align: middle; margin-right: 10px;"></i> <strong>Security:</strong> Centralized ACL management.</li>
+                    <li><i data-lucide="check-circle-2" style="color: var(--accent-blue); vertical-align: middle; margin-right: 10px;"></i> <strong>Portability:</strong> Move projects between environments easily.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Slide 5: Architect Intro -->
+        <section class="slide" id="slide-5">
+            <div class="slide-header">
+                <span class="tag">Role: Architect</span>
+                <h1>Architecting the Vision</h1>
+            </div>
+            <div class="slide-content">
+                <p>The Architect's primary mission is to translate physical warehouse structures into a logical business model that users can understand.</p>
+                <div class="content-grid" style="margin-top: 40px;">
+                    <div class="content-card">
+                        <h3>Logical Data Model</h3>
+                        <p>Abstracting the DB schema into business entities.</p>
+                    </div>
+                    <div class="content-card">
+                        <h3>Relationship Mapping</h3>
+                        <p>Defining 1:1, 1:M, and M:M relationships between tables.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slides 6-25 Placeholder logic - to be expanded by script or further edits -->
+        <!-- I'll add a few more detailed ones now and then the rest -->
+        
+        <!-- Slide 6: Schema Objects - Facts -->
+        <section class="slide" id="slide-6">
+            <div class="slide-header">
+                <span class="tag">Architect</span>
+                <h1>Schema Objects: Facts</h1>
+            </div>
+            <div class="slide-content">
+                <p>Facts are the foundation of metrics. They represent numeric data stored in the warehouse that can be aggregated.</p>
+                <div class="content-card" style="margin-top:30px;">
+                    <h3>Fact Expressions</h3>
+                    <p>Can be simple column mappings or complex expressions: <code>(Qty * Unit_Price) - Discount</code></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 7: Schema Objects - Attributes -->
+        <section class="slide" id="slide-7">
+            <div class="slide-header">
+                <span class="tag">Architect</span>
+                <h1>Schema Objects: Attributes</h1>
+            </div>
+            <div class="slide-content">
+                <p>Attributes provide the business context for facts (the "Who, What, Where, When").</p>
+                <div class="content-grid">
+                    <div class="content-card">
+                        <h3>Attribute Forms</h3>
+                        <p>ID, Description, Long Description, Image, etc.</p>
+                    </div>
+                    <div class="content-card">
+                        <h3>Elements</h3>
+                        <p>The actual data values (e.g., "New York" is an element of "City").</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 8: Hierarchies -->
+        <section class="slide" id="slide-8">
+            <div class="slide-header">
+                <span class="tag">Architect</span>
+                <h1>Hierarchies & Drills</h1>
+            </div>
+            <div class="slide-content">
+                <p>Hierarchies define the paths users take when drilling down into data (e.g., Year -> Month -> Day).</p>
+                <div class="content-card">
+                    <h3>System Hierarchy</h3>
+                    <p>Automatically created based on attribute relationships.</p>
+                </div>
+                <div class="content-card" style="margin-top: 20px;">
+                    <h3>User Hierarchy</h3>
+                    <p>Custom-defined paths for specific business needs.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 9: Developer Intro -->
+        <section class="slide" id="slide-9">
+            <div class="slide-header">
+                <span class="tag">Role: Developer</span>
+                <h1>Building Analytical Wisdom</h1>
+            </div>
+            <div class="slide-content">
+                <p>Developers use the schema built by Architects to create public objects that deliver insights directly to users.</p>
+                <div class="content-grid">
+                    <div class="content-card"><h3>Metrics</h3></div>
+                    <div class="content-card"><h3>Filters</h3></div>
+                    <div class="content-card"><h3>Dossiers</h3></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 10: Metrics -->
+        <section class="slide" id="slide-10">
+            <div class="slide-header">
+                <span class="tag">Developer</span>
+                <h1>Metrics: Power of Calculation</h1>
+            </div>
+            <div class="slide-content">
+                <div class="content-grid">
+                    <div class="content-card">
+                        <h3>Simple Metrics</h3>
+                        <p>Basic aggregations like <code>Sum(Revenue)</code>.</p>
+                    </div>
+                    <div class="content-card">
+                        <h3>Level Metrics</h3>
+                        <p>Calculated at a specific dimensionality (e.g., Revenue for the whole category regardless of current filter).</p>
+                    </div>
+                    <div class="content-card">
+                        <h3>Compound Metrics</h3>
+                        <p>Formulas involving other metrics: <code>(Profit / Revenue)</code>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 11: Filters -->
+        <section class="slide" id="slide-11">
+            <div class="slide-header">
+                <span class="tag">Developer</span>
+                <h1>Filters: Precision Analytics</h1>
+            </div>
+            <div class="slide-content">
+                <p>Filters restrict the data returned from the warehouse to specific criteria.</p>
+                <div class="content-grid">
+                    <div class="content-card">
+                        <h3>Attribute Qualification</h3>
+                        <p>Region = Southeast</p>
+                    </div>
+                    <div class="content-card">
+                        <h3>Metric Qualification</h3>
+                        <p>Revenue > 1M</p>
+                    </div>
+                    <div class="content-card">
+                        <h3>Filter Panels</h3>
+                        <p>Dynamic selectors in Dossiers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 12: Prompts -->
+        <section class="slide" id="slide-12">
+            <div class="slide-header">
+                <span class="tag">Developer</span>
+                <h1>Prompts: User Interactivity</h1>
+            </div>
+            <div class="slide-content">
+                <p>Prompts ask the user for input before the report runs, making the BI experience dynamic and personalized.</p>
+                <ul>
+                    <li>Object Prompts: User picks the metrics or attributes.</li>
+                    <li>Value Prompts: User enters a specific date or number.</li>
+                    <li>Element List Prompts: User picks from a list (e.g., Year).</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Slide 13: Intelligent Cubes -->
+        <section class="slide" id="slide-13">
+            <div class="slide-header">
+                <span class="tag">Optimization</span>
+                <h1>Intelligent Cubes</h1>
+            </div>
+            <div class="slide-content">
+                <p>In-memory storage for massive datasets. Cubes allow for sub-second response times by pulling data into the I-Server memory.</p>
+                <div class="content-card">
+                    <h3>Prime Logic</h3>
+                    <p>Load once, hit many times. Multiple reports can share one cube.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 14: Dossiers -->
+        <section class="slide" id="slide-14">
+            <div class="slide-header">
+                <span class="tag">Visualization</span>
+                <h1>Dossiers: Modern Analytics</h1>
+            </div>
+            <div class="slide-content">
+                <p>Self-service, highly interactive dashboards created in MicroStrategy Workstation or Web.</p>
+                <div class="content-grid">
+                    <div class="mosaic-item">Visualizations (Map, Sankey, Grid)</div>
+                    <div class="mosaic-item">Responsive Layouts</div>
+                    <div class="mosaic-item">Natural Language Query (Auto)</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 15: Documents -->
+        <section class="slide" id="slide-15">
+            <div class="slide-header">
+                <span class="tag">Reporting</span>
+                <h1>Reporting Services (RS)</h1>
+            </div>
+            <div class="slide-content">
+                <p>When you need pixel-perfect, banded reports for PDFs or high-fidelity printing. RS Documents provide precise control over every element.</p>
+            </div>
+        </section>
+
+        <!-- Slide 16: Administrator Intro -->
+        <section class="slide" id="slide-16">
+            <div class="slide-header">
+                <span class="tag">Role: Administrator</span>
+                <h1>The Command Center</h1>
+            </div>
+            <div class="slide-content">
+                <p>Administrators ensure the platform is secure, fast, and constantly available to users.</p>
+                <div class="content-grid">
+                    <div class="content-card"><h3>User Management</h3></div>
+                    <div class="content-card"><h3>Security</h3></div>
+                    <div class="content-card"><h3>Maintenance</h3></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 17: Security Model -->
+        <section class="slide" id="slide-17">
+            <div class="slide-header">
+                <span class="tag">Administrator</span>
+                <h1>Advanced Security</h1>
+            </div>
+            <div class="slide-content">
+                <div class="content-grid">
+                    <div class="content-card">
+                        <h3>ACLs</h3>
+                        <p>Access Control Lists: Who can View, Modify, or Delete an object.</p>
+                    </div>
+                    <div class="content-card">
+                        <h3>Security Roles</h3>
+                        <p>A set of privileges assigned to users or groups (e.g., "Web Professional").</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 18: Security Filters -->
+        <section class="slide" id="slide-18">
+            <div class="slide-header">
+                <span class="tag">Administrator</span>
+                <h1>Security Filters</h1>
+            </div>
+            <div class="slide-content">
+                <p>Row-level security. Ensures users ONLY see the data they are entitled to (e.g., Southeast Manager only sees Southeast data across ALL reports).</p>
+            </div>
+        </section>
+
+        <!-- Slide 19: Performance Tuning -->
+        <section class="slide" id="slide-19">
+            <div class="slide-header">
+                <span class="tag">Administrator</span>
+                <h1>Performance Tuning</h1>
+            </div>
+            <div class="slide-content">
+                <p>Optimizing the engine for speed.</p>
+                <div class="content-grid">
+                    <div class="content-card"><h3>Caching</h3><p>Saving report results for reuse.</p></div>
+                    <div class="content-card"><h3>VLDB Properties</h3><p>Very Large Database properties to customize SQL generation.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 20: Object Manager -->
+        <section class="slide" id="slide-20">
+            <div class="slide-header">
+                <span class="tag">Administrator</span>
+                <h1>Lifecycle Management</h1>
+            </div>
+            <div class="slide-content">
+                <p>Moving objects from Dev to QA to Production. Object Manager ensures all dependencies are moved correctly.</p>
+            </div>
+        </section>
+
+        <!-- Slide 21: Command Manager -->
+        <section class="slide" id="slide-21">
+            <div class="slide-header">
+                <span class="tag">Admin / Automation</span>
+                <h1>Command Manager</h1>
+            </div>
+            <div class="slide-content">
+                <p>Automate administrative tasks using MicroStrategy Scripting Language (Java-based scripts).</p>
+                <pre style="background: rgba(0,0,0,0.4); padding: 10px; border-radius: 8px; margin-top: 10px;">LIST ALL USER GROUPS;</pre>
+            </div>
+        </section>
+
+        <!-- Slide 22: Integrity Manager -->
+        <section class="slide" id="slide-22">
+            <div class="slide-header">
+                <span class="tag">Administrator</span>
+                <h1>Integrity Manager</h1>
+            </div>
+            <div class="slide-content">
+                <p>A tool to compare report results between two environments or versions, ensuring that upgrades or migrations didn't break calculations.</p>
+            </div>
+        </section>
+
+        <!-- Slide 23: Platform Analytics -->
+        <section class="slide" id="slide-23">
+            <div class="slide-header">
+                <span class="tag">Monitoring</span>
+                <h1>Platform Analytics</h1>
+            </div>
+            <div class="slide-content">
+                <p>The next-generation monitoring tool. Captures platform data in real-time using Apache Kafka and stores it in the Platform Analytics warehouse.</p>
+            </div>
+        </section>
+
+        <!-- Slide 24: HyperIntelligence -->
+        <section class="slide" id="slide-24">
+            <div class="slide-header">
+                <span class="tag">Future</span>
+                <h1>HyperIntelligence</h1>
+                <p>Data without the clicks. Zero-click insights delivered via cards in browsers, mobile apps, and Outlook.</p>
+            </div>
+            <div class="slide-content">
+                <p>Turning every user into a data-driven user by overlaying information on existing workflows.</p>
+            </div>
+        </section>
+
+        <!-- Slide 25: Conclusion -->
+        <section class="slide" id="slide-25">
+            <div class="slide-header">
+                <span class="tag">Final</span>
+                <h1>The Journey Continues</h1>
+            </div>
+            <div class="slide-content">
+                <p>By mastering the roles of Architect, Developer, and Administrator, you become an indispensable asset in any data-driven organization.</p>
+                <div class="content-card" style="text-align: center; margin-top: 40px;">
+                    <h3>Ready to build?</h3>
+                    <p>Start your MicroStrategy journey today.</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- UI Overlay for Controls -->
+    <div class="nav-controls">
+        <button class="btn-nav" id="btn-mosaic" title="Mosaic View">
+            <i data-lucide="layout-grid"></i>
+        </button>
+        <button class="btn-nav" id="btn-prev">
+            <i data-lucide="chevron-left"></i>
+        </button>
+        <div class="progress-container">
+            <div id="progress-bar" style="width: 4%;"></div>
+        </div>
+        <button class="btn-nav" id="btn-next">
+            <i data-lucide="chevron-right"></i>
+        </button>
+        <span id="slide-counter">1 / 25</span>
+    </div>
+
+    <!-- Mosaic Overlay -->
+    <div id="mosaic-overlay">
+        <!-- Will be filled by JS -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
